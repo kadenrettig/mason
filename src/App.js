@@ -115,6 +115,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="BeginningText">Hello...Let's Play A Game :)</div>
         <div className="cardWrapper">
           {colorList &&
             colorList.map((v, i) => (
@@ -130,7 +131,7 @@ function App() {
 
         {isOn && !play.isDisplay && !play.userPlay && play.score && (
           <div className="lost">
-            <div>FinalScore: {play.score}</div>
+            <div>Final Score: {play.score}</div>
             <button onClick={closeHandle}>Close</button>
           </div>
         )}

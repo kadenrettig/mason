@@ -13,6 +13,18 @@
   color: white;
 }
 
+.BeginningText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(255, 198, 42);
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -53,9 +65,9 @@
 
 .lost {
   position: absolute;
-  top: 250px;
-  width: 400px;
-  height: 400px;
+  top: 345px;
+  width: 250px;
+  height: 250px;
   background-color: white;
   border: #282c34 solid 4px;
   border-radius: 50%;
